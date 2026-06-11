@@ -26,9 +26,7 @@ const CONFIG = {
   maxLogRows: 5000,       // The Logs sheet resets itself once it passes this many rows
   // The MTC(s) to search. The API uses this list to scope the search. Today it
   // holds only "Provo"; add more MTC objects here to search additional MTCs.
-  // The leader name/email/phone fields are informational and WILL go stale over
-  // the years (MTC presidents change). The "id"/"unitId"/"typeId" are the values
-  // that actually matter to the API.
+  // The "id" is the values that actually matter to the API.
   mtcs: [
     {
       id: 2010852,
