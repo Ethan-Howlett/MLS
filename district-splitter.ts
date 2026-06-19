@@ -9,11 +9,11 @@ const CONFIG = {
     log: "Logs",              // Sheet where a run history is recorded (auto-created)
   },
   cells: {
-    daySelector: "AD1", // Dropdown the user sets to "Thursday" or "Friday"
-    status: "AF1",      // Cell where progress / errors are shown to the user
+    daySelector: "AE1", // Dropdown the user sets to "Thursday" or "Friday"
+    status: "AG1",      // Cell where progress / errors are shown to the user
   },
   tables: {
-    assignedDistricts: "Mission_Numbers", // Table listing districts assigned to each mission leader
+    assignedDistricts: "TYM_Numbers", // Table listing districts assigned to each mission leader
     thursdayMissionaries: "TYM_Missionaries",  // Missionary table for Thursday
     fridayMissionaries: "TYM_Missionaries2",   // Missionary table for Friday
   },
