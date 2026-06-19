@@ -34,7 +34,7 @@ In the API Key input you will need to get your MTC Tools API key by inspecting t
    - This opens a panel with information about the webpage. Click the **Network** tab.
 3. With the **Network** tab open, click **Custom Search** on MTC Tools. As the page loads, network traffic appears in the Inspector panel. Look for a request named **custom-search** and click it.
 
-   ![custom-search](custom-search.png)
+   ![Screenshot of the custom-search packet to select](custom-search.png)
 
    Scroll down in the request details and find the **Authorization** field. The value is the API key. Triple-click the long string that starts with `Bearer` and copy it (press <kbd>⌘</kbd> + <kbd>C</kbd> or <kbd>Ctrl</kbd> + <kbd>C</kbd>).
 
@@ -77,7 +77,7 @@ On the sheet, the **Use Split** column only affects conditional formatting and h
 
 ### How to set up
 
-As you assign districts to mission leaders, missionaries appear in the tables to the right. Orange is Thursday and green is Friday. Counts will not update until you assign missionaries to that ML, even after you add a district more than once for splitting.
+As you assign districts to mission leaders, missionaries appear in the tables to the right. Orange is Thursday and green is Friday. Counts will not update until you assign missionaries to that ML, even after you add a district more than once for splitting. Make sure that the tables 'T:AD' and 'AE:AO' need to be the same number of rows as 'AR:BD' and 'BG:BS' respectivily.
 
 ### How to use
 

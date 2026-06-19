@@ -13,7 +13,7 @@ const CONFIG = {
     status: "AF1",      // Cell where progress / errors are shown to the user
   },
   tables: {
-    assignedDistricts: "Mission_Numbers4", // Table listing districts assigned to each mission leader
+    assignedDistricts: "Mission_Numbers", // Table listing districts assigned to each mission leader
     thursdayMissionaries: "TYM_Missionaries",  // Missionary table for Thursday
     fridayMissionaries: "TYM_Missionaries2",   // Missionary table for Friday
   },
